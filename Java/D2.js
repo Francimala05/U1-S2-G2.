@@ -87,18 +87,49 @@ console.log("Il tuo prodotto scontato costerà",importoScontato)
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
+let var1= 10
+let var2= 30
+let var3= 50
+if(var1 && var2 > var3){
+  if(var1>var2){
+    console.log(var1)
+    console.log(var2)
+    console.log(var3)
+  }
+  else{
+      console.log(var2)
+      console.log(var1)
+      console.log(var3)
+    }
+
+    }
+else{ 
+  if(var2>var1){
+    console.log(var3)
+    console.log(var2)
+    console.log(var1)
+  }
+  else{
+    console.log(var3)
+    console.log(var1)
+    console.log(var2)
+  }
+  }
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-let num10 = prompt("inserisci un valore")
-if(typeof num10 === 'Number'){
+let num10 = 5;
+if(typeof num10 === 'number'){
   console.log("il valore indicato è un numero")
 }
 else{
   console.log("il valore indicato non è un numero")
 }
+
+
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
